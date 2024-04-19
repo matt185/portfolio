@@ -1,0 +1,2 @@
+*{box-sizing:border-box;margin:0}body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;background-color:#1d1d1d;color:#41b883;font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;width:100%}#root{height:100%}.layout{height:100vh;width:100%}#cursor-shadow,.layout{background-color:inherit}#cursor-shadow{border-radius:50%;box-shadow:0 0 50rem 20px #41b883;left:100px;pointer-events:none;position:absolute;top:100px}
+/*# sourceMappingURL=main.21166a10.css.map*/
