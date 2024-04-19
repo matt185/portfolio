@@ -1,0 +1,54 @@
+// colors
+$dark: rgb(29, 29, 29);
+$whiteGray:rgb(219,219,219);
+$lgGray: rgb(155,155,155);
+$gray: rgb(138, 135, 135);
+$light: rgb(255,255,255);
+$primary: rgb(162, 162, 246);
+$lgPurple:rgb(167,126,208);
+$purple:rgb(108,42,255);
+$bg: rgb(244, 244, 255);
+$lgBlue:rgb(97, 219, 251);
+$policeBlue:rgb(52, 73, 94);
+$mint:rgba(65, 184, 131);
+$green:rgb(18, 246, 143);
+$pink:rgb(233, 30, 99);
+// spacing
+$spacing-md: 16px;
+$spacing-lg: 32px;
+// border radius
+$borderRadius: 12px;
+// header footer height
+$headerHeight: 80px;
+$footerHeight: 80px;
+$pageHeight: calc(100vh - 160px);
+// max width
+$maxWidth: 1280px;
+
+// break point
+@mixin breakpoint($point) {
+    @if $point==md {
+        // 768px
+        @media (min-width: 48em) {
+            @content;
+        }
+    }
+    @if $point==sm {
+        // 459px
+        @media (max-width: 28em) {
+            @content;
+        }
+    }
+    @if $point==sm {
+        //415px
+        @media (max-width: 25.9em) {
+            @content;
+        }
+    }
+    @if $point==xsm {
+        //375px
+        @media (max-width: 23.5em) {
+            @content;
+        }
+    }
+}
