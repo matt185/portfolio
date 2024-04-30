@@ -8,7 +8,7 @@ interface InfoProps {
 }
 
 export const Info: React.FC<InfoProps> = ({ }) => {
-    const [activeLink, setActiveLink] = useState<number>(1)
+    const [activeLink, setActiveLink] = useState<number | undefined>(undefined)
     const handleLinks = (value: number) => {
         setActiveLink(value)
     }

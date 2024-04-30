@@ -1,0 +1,76 @@
+@import '../variable.scss';
+
+.projectCard{
+    color: $light;
+    border: 0.1px solid $gray;
+    background-color: rgba($mint,0.6);
+    border-radius: 10px;
+    box-shadow: 5px 5px 11px 1px rgba($mint,0.2) !important;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    padding: 1rem;
+    height: 390px ;
+    max-height: 390px;
+    &_header{
+        text-align: center;
+        &_title {
+            text-transform: capitalize;
+        }
+    }
+    &_git{
+        margin-top: 0.5rem;
+        margin-bottom: 1rem;
+        a{
+            cursor: pointer;
+            .icon{
+                color: $light;
+                font-size: 1.3rem;
+                &:hover{
+                    transform: scale(1.3) !important;
+                    transition: 0.3s ease all ;
+                    color: $dark;
+                }
+            }
+        }
+    }
+    &_image{
+        height: 35%;
+        margin-bottom: 10px;
+        &_vertical {
+            width: 70px;
+            height: 120px;
+        }
+        &_horizontal {
+            height: 100px;
+            width: 180px;
+        }
+    }
+    &_description {
+        margin-top: 1rem;
+        height: 45%;
+        overflow-y: scroll;
+        p {
+            text-overflow: ellipsis;
+        }
+    }
+    &_tech{
+        margin-top: auto;
+        display: flex;
+        b{
+            color: $dark;
+            margin-right: 10px ;
+        }
+    }
+    a{
+        width: 100%;
+        color: $dark;
+        margin-top: 0.2rem;
+        text-align: center;
+        &:hover{
+            transform: scale(1.1);
+            transition: 0.3s ease all;
+            color: $light;
+        }
+    }
+}
