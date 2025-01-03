@@ -99,9 +99,9 @@ export const projectsList: Project[] = [
     name: 'Movie List',
     logo: MovieListImage,
     description:
-      '',
-    techStack: 'Python, tkinter',
-    link: 'https://github.com/matt185/pomodoro-app',
+      'List of movies from the movie database api. Search your favorite movie or look trought the various category for find your favorite one.',
+    techStack: 'Typescript, React, Sass',
+    link: 'https://github.com/matt185/movie-list-v2',
     route: '',
     page: false,
     home: false,

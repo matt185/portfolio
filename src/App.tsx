@@ -12,10 +12,10 @@ function App() {
     <BrowserRouter>
       <Layout >
         <Routes>
-          <Route element={<About />} path='/' />
-          <Route element={<Contacts />} path='/contacts' />
-          <Route element={<Projects />} path='/projects' />
-          <Route element={<WebComponents />} path='projects/web_components' />
+          <Route element={<About />} path='/portfolio/' />
+          <Route element={<Contacts />} path='/portfolio/contacts' />
+          <Route element={<Projects />} path='/portfolio/projects' />
+          <Route element={<WebComponents />} path='/portfolio/projects/web_components' />
         </Routes>
       </Layout>
     </BrowserRouter>

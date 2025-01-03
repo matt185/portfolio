@@ -23,9 +23,9 @@ export const Info: React.FC<InfoProps> = ({ }) => {
                     <p className="info_content_description"> Frontend engineer</p>
                 </div>
                 <div className="info_content_menu">
-                    <NavLink className={handleLinksClass(1)} to="/" onClick={() => handleLinks(1)}>about</NavLink>
-                    <NavLink className={handleLinksClass(2)} to="/projects" onClick={() => handleLinks(2)}>Projects</NavLink>
-                    <NavLink className={handleLinksClass(3)} to="/contacts" onClick={() => handleLinks(3)}>Contacts</NavLink>
+                    <NavLink className={handleLinksClass(1)} to="/portfolio/" onClick={() => handleLinks(1)}>about</NavLink>
+                    <NavLink className={handleLinksClass(2)} to="/portfolio/projects" onClick={() => handleLinks(2)}>Projects</NavLink>
+                    <NavLink className={handleLinksClass(3)} to="/portfolio/contacts" onClick={() => handleLinks(3)}>Contacts</NavLink>
                 </div>
                 <div className="info_content_links">
                     <a href="" target='_blank'><FaLinkedin /></a>
